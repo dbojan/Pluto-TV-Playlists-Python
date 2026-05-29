@@ -1,5 +1,8 @@
 # remade in python
 
+
+2026-05-30-1
+
 you can edit config json to change countries. see readme2 for more info.
 I have removed de it es fr and added dk nw sw
 
