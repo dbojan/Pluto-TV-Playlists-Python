@@ -26,7 +26,9 @@ Open the `config.json` file in your fork and replace the default client_id with 
 }
 ```
 
-## Step 4: Run `python plutotv_scraper.py`
+## Step 4: Run 
+
+`python plutotv_scraper.py`
 
 
 
