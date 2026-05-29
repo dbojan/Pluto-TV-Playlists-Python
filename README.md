@@ -30,7 +30,7 @@ Open the `config.json` file in your fork and replace the default client_id with 
 
 `python plutotv_scraper.py`
 
-
+output is in output dir.
 
 # old text
 
