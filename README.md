@@ -30,7 +30,7 @@ Open the `config.json` file in your fork and replace the default client_id with 
 
 `python plutotv_scraper.py`
 
-output is in output dir.
+output is in output dir. It should be valid for 24 hours.
 
 # old text
 
