@@ -1,3 +1,30 @@
+# remade in python
+
+you can edit config json to change countries. see readme2 for more info.
+I have removed de it es fr and added dk nw sw
+
+
+
+## Step 2: Generate Your Client ID (UUID)
+
+You need a unique client ID for Pluto TV:
+
+- Go to [https://www.uuidgenerator.net/](https://www.uuidgenerator.net/) and generate a new UUID.  
+- Example: `9a1cce51-2d2f-4b6c-9f8e-1e2d0a3b4c5d`
+- Copy the UUID.
+
+## Step 3: Edit `config.json`
+
+Open the `config.json` file in your fork and replace the default client_id with your UUID:
+
+```json
+{
+  "client_id": "PASTE_YOUR_UNIQUE_UUID_HERE"
+}
+```
+
+# old text
+
 # 🌎 PLUTO TV PLAYLISTS
 
 ![Auto Update](https://img.shields.io/badge/Token-Auto%20Updated-brightgreen)
