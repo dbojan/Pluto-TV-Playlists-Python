@@ -129,6 +129,6 @@ Source: https://github.com/matthuisman/i.mjh.nz
 
 ## changes for python scraper
 2026-05-30-2  
-- updated public ip addresses
+- updated public ip addresses in config.json
 
 
