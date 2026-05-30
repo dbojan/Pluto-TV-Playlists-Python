@@ -2,7 +2,6 @@
 
 Pluto-TV-Playlists, remade in python
 
-
 2026-05-30-3
 
 You can edit config.json to change countries, for example mostly english speaking settings: "ca", "uk", "us", "no", "se", "dk".
