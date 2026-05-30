@@ -1,7 +1,7 @@
 # remade in python
 
 
-2026-05-30-2
+2026-05-30-3
 
 You can edit config.json to change countries, for example mostly english speaking settings: "ca", "uk", "us", "no", "se", "dk".
 
@@ -124,10 +124,11 @@ Some modifications and customization were made for this repository.
 EPG data provided by [Matt Huisman](https://github.com/matthuisman)  
 Source: https://github.com/matthuisman/i.mjh.nz
 
-
-
-
 ## changes for python scraper
+
+2026-05-30-3  
+- updated config.json
+
 2026-05-30-2  
 - updated public ip addresses in config.json
 
