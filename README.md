@@ -1,11 +1,9 @@
 # remade in python
 
 
-2026-05-30-1
+2026-05-30-2
 
-you can edit config json to change countries. see readme2 for more info.
-I have removed de it es fr and added no dk no se 
-
+You can edit config json to change countries.
 
 
 ## Step 2: Generate Your Client ID (UUID)
@@ -125,3 +123,12 @@ Some modifications and customization were made for this repository.
 
 EPG data provided by [Matt Huisman](https://github.com/matthuisman)  
 Source: https://github.com/matthuisman/i.mjh.nz
+
+
+
+
+## changes for python scraper
+2026-05-30-2  
+- updated public ip addresses
+
+
