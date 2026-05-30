@@ -3,7 +3,7 @@
 
 2026-05-30-2
 
-You can edit config.json to change countries, for example mostly english speaking: "ca", "uk", "us", "no", "se", "dk".
+You can edit config.json to change countries, for example mostly english speaking settings: "ca", "uk", "us", "no", "se", "dk".
 
 
 ## Step 2: Generate Your Client ID (UUID)
