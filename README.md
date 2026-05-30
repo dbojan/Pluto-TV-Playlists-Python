@@ -1,4 +1,6 @@
-# remade in python
+# Pluto-TV-Playlists-Python
+
+Pluto-TV-Playlists, remade in python
 
 
 2026-05-30-3
