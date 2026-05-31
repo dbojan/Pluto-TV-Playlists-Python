@@ -6,6 +6,9 @@ Pluto-TV-Playlists, remade in python
 
 You can edit config.json to change countries, for example mostly english speaking settings: "ca", "uk", "us", "no", "se", "dk".
 
+Or use config_en.json which has only ca, uk, us, no, se, dk:  `python plutotv_scraper.py--config config_en.json`
+
+
 
 ## Step 2: Generate Your Client ID (UUID)
 
