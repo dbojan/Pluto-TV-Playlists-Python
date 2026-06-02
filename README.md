@@ -137,7 +137,7 @@ added option:
 ```
 --jwt-only            Only refresh JWT in existing .m3u8 files
 ```
-This will skip generating xml files, obviously  
+This will skip generating xml files, obviously. It downloads jwt token for single channel in a region, and applies it to m3u8 files for that region.
 
 
 
