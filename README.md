@@ -134,8 +134,9 @@ Source: https://github.com/matthuisman/i.mjh.nz
 
 2026-06-02-1  
 added option:  
-
-  --jwt-only            Only refresh JWT in existing .m3u8 files  
+```
+--jwt-only            Only refresh JWT in existing .m3u8 files
+```
 This will skip generating xml files, obviously  
 
 
