@@ -131,17 +131,25 @@ Source: https://github.com/matthuisman/i.mjh.nz
 ## changes for python scraper
 
 
-2026-05-31-1
-2026-05-31-1
 
-CHANGED: new options  
+2026-06-02-1  
+added option:  
+
+  --jwt-only            Only refresh JWT in existing .m3u8 files  
+This will skip generating xml files, obviously  
+
+
+
+2026-05-31-1  
+new options:  
 ```
 --json-source FILE    Public JSON file used as backup for regions where the live API returns no data  
 --append-expiry       Append #list updated / jwt expiry timestamps as comments to M3U8  
 --no-xml              Skip writing XMLTV EPG files (very time-consuming), for channels only, not vod  
 ```
 
-CHANGED: Sort each country vod m3u8 file,  (ondemand.py). They are sorted within each category. Will again start with A on new category. You can use for now:  
+CHANGED: Sort each country vod m3u8 file,  (ondemand.py). They are sorted within each category. Will again start with A on new category.  
+You can use for now:  
 _m3u8_title_sort.py input.m3u > output_sorted.m3u  
 
 CHANGED: stitched.path already included in _get_items response, using instead: vod_item = item, (ondemand.py)  
@@ -149,6 +157,7 @@ CHANGED: stitched.path already included in _get_items response, using instead: v
 config_en.json = mostly english speaking countries only  
 _m3u8_title_sort.py = sort m3u by titles ('my best movie, a') will still be sorted under 'a', for now.  
 _extract_public_data_from_json.py = in case you need to extract from plu.json just public data  
+
 
 2026-05-30-3  
 - updated config.json
