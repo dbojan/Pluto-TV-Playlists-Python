@@ -2,7 +2,7 @@
 
 Pluto-TV-Playlists, remade in python
 
-2026-06-02-1
+2026-06-04-1
 
 You can edit config.json to change countries, for example mostly english speaking settings: "ca", "uk", "us", "no", "se", "dk".
 
@@ -130,7 +130,10 @@ Source: https://github.com/matthuisman/i.mjh.nz
 
 ## changes for python scraper
 
+2026-06-04-1
 
+CHANGED (lib/plutotv.py)
+patch all files for matching region, for example all files matching *_ca.m3u8, not just plutotv_ca.m3u8 and plutotv_ondemand_ca.m3u8
 
 2026-06-02-1  
 added option:  
@@ -139,7 +142,6 @@ added option:
 ```
 It downloads jwt token for a single channel in a region, and applies it to m3u8 files for that region. This will skip generating xml files, obviously.  
 This will not update your list of channels and vod items, just their tokens.  
-
 
 2026-05-31-1  
 new options:  
@@ -158,7 +160,6 @@ CHANGED: stitched.path already included in _get_items response, using instead: v
 config_en.json = mostly english speaking countries only  
 _m3u8_title_sort.py = sort m3u by titles ('my best movie, a') will still be sorted under 'a', for now.  
 _extract_public_data_from_json.py = in case you need to extract from plu.json just public data  
-
 
 2026-05-30-3  
 - updated config.json
