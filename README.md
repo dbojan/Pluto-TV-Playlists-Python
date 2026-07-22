@@ -2,7 +2,7 @@
 
 Pluto-TV-Playlists, remade in python
 
-2026-06-06-1  
+2026-07-22-16-06-18
 
 You can edit config.json to change countries, for example mostly english speaking settings: "ca", "uk", "us", "no", "se", "dk".
 
@@ -129,6 +129,12 @@ EPG data provided by [Matt Huisman](https://github.com/matthuisman)
 Source: https://github.com/matthuisman/i.mjh.nz
 
 ## changes for python scraper
+
+
+2026-07-22-16-06-18
+- change code for all.xml
+- change --no-xml option to --no-live-xml, since it affects only live xml files
+
 
 2026-06-06-1  
 renamed live channels to plutotv_live_xx.m3u8  
