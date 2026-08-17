@@ -2,7 +2,7 @@
 
 Pluto-TV-Playlists, remade in python
 
-2026-07-22-16-06-18
+2026-08-17-21-11-05
 
 You can edit config.json to change countries, for example mostly english speaking settings: "ca", "uk", "us", "no", "se", "dk".
 
@@ -130,6 +130,8 @@ Source: https://github.com/matthuisman/i.mjh.nz
 
 ## changes for python scraper
 
+2026-08-17-21-11-05
+- small changes in tools.sh
 
 2026-07-22-16-06-18
 - change code for all.xml
